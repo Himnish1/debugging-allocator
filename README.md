@@ -12,7 +12,7 @@ alloc count: active ** total ** fail ** where ** are any numbers representing th
 __________________________________________________________
 Invalid free and double free detection:
 
-Freeing a pointer not in the heap will trigger the following error message: MEMORY BUG:<filename>:<linenumber>:invalid free of pointer <address>, not in heap
+Freeing a pointer not in the heap will trigger the following error message: MEMORY BUG:[filename]:[linenumber]:invalid free of pointer [address], not in heap
 __________________________________________________________
 Advanced reports and checking:
   
