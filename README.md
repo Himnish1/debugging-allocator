@@ -16,13 +16,13 @@ alloc count: active ** total ** fail **
 alloc size : active ** total ** fail **
 
 where ** are any numbers representing the given fields.
-__________________________________________________________
+
 Invalid free and double free detection:
 
 Freeing a pointer not in the heap will trigger the following error message:
 MEMORY BUG: <filename>:<linenumber>: invalid free of pointer
 <address>, not in heap
-__________________________________________________________
+
 Advanced reports and checking:
   
 Upon an invalid free, the program can also tell you whether the address passed was ever allocated,
@@ -30,7 +30,7 @@ and where ina  current allocated block you are trying to free:
 
 MEMORY BUG: <filename>:<linenumber>: invalid free of pointer <address>, not allocated
 <filename>:<linenumber>: <address> is ** bytes inside a <size_of_allocated_block> byte region allocated here
-___________________________________________________________
+
 Leak check report:
   
 The function dmalloc_print_leak_report() returnsa report of every currently allocated object
@@ -43,7 +43,7 @@ LEAK CHECK: <filename>:<linenumber>: allocated object <address> with size **
 LEAK CHECK: <filename>:<linenumber>: allocated object <address> with size **
 LEAK CHECK: <filename>:<linenumber>: allocated object <address> with size **
 LEAK CHECK: <filename>:<linenumber>: allocated object <address> with size **
-____________________________________________________________
+
 Heavy-hitter report:
 
 By use of sampling, calling 
