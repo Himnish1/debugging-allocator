@@ -1,3 +1,5 @@
+// base allocator functions by Richard Habeeb/ Abhishek Bhattacharjee
+
 #define M61_DISABLE 1
 #include "dmalloc.hh"
 #include <unordered_map>
@@ -6,7 +8,7 @@
 
 
 // This file contains a base memory allocator guaranteed not to
-// overwrite freed allocations. No need to understand it.
+// overwrite freed allocations
 
 
 using base_allocation = std::pair<uintptr_t, size_t>;
