@@ -28,9 +28,6 @@ The function dmalloc_print_leak_report() returns a report of every currently all
 in the system: 
 
 LEAK CHECK: [filename]:[linenumber]: allocated object [address] with size ??
-LEAK CHECK: [filename]:[linenumber]: allocated object [address] with size ??
-LEAK CHECK: [filename]:[linenumber]: allocated object [address] with size ??
-LEAK CHECK: [filename]:[linenumber]: allocated object [address] with size ??
 __________________________________________________________
 Heavy-hitter report:
 
@@ -38,9 +35,6 @@ By use of sampling, calling
   
 dmalloc_print_heavy_hitters() will return a report of the 5 lines that were responsible for most of the memory allocated:
 
-HEAVY HITTER: [filename]:[linenumber]: [size_allocated_by_line] bytes (~[percentage_of total size])
-HEAVY HITTER: [filename]:[linenumber]: [size_allocated_by_line] bytes (~[percentage_of total size])
-HEAVY HITTER: [filename]:[linenumber]: [size_allocated_by_line] bytes (~[percentage_of total size])
 HEAVY HITTER: [filename]:[linenumber]: [size_allocated_by_line] bytes (~[percentage_of total size])
 
 
