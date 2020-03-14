@@ -31,7 +31,7 @@ LEAK CHECK: [filename]:[linenumber]: allocated object [address] with size ??
 __________________________________________________________
 Heavy-hitter report:
 
-By use of sampling, calling 
+By use of the in-built C++ hash table and sampling, calling 
   
 dmalloc_print_heavy_hitters() will return a report of the 5 lines that were responsible for most of the memory allocated:
 
