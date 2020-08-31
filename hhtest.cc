@@ -1,4 +1,4 @@
-// Test file by Abhishek Battacharjee/Richard Habeeb
+// Test file by Abhishek Bhattacharjee/Richard Habeeb
 #include "dmalloc.hh"
 #include <cstdlib>
 #include <cmath>
